@@ -102,7 +102,8 @@ void AfficheMenu(Eleve eleve[], int NBEleves)
  switch (choix)
  {
  case 1:
-  cout << "Voici la liste des eleves de la classe : " AfficheEleve(eleve, NBEleves);
+  cout << "Voici la liste des eleves de la classe : " << endl;
+  AfficheEleve(eleve, NBEleves);
   break;
  case 2:
   /*SaisieEleve(eleve[i]);*/
